@@ -7,13 +7,20 @@ import { HeaderComponentComponent } from './Component/header-component/header-co
 import { FooterComponentComponent } from './Component/footer-component/footer-component.component';
 import { LeftNavComponent } from './Component/left-nav/left-nav.component';
 import { MainBodyComponent } from './Component/main-body/main-body.component';
+import { HomeComponent } from './Component/home/home.component';
+import { LoginComponent } from './Component/login/login.component';
+import { RegisterComponent } from './Component/register/register.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponentComponent,
     FooterComponentComponent,
     LeftNavComponent,
-    MainBodyComponent  ],
+    MainBodyComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent  ],
   imports: [
     BrowserModule,FormsModule, AppRoutingModule
   ],

@@ -1,5 +1,8 @@
 .mainBody{
-    position: absolute;
+    position: relative;
     left: 50%;
-    right: 0%
+    right: 0%;
+    width: 50%;
+    bottom: 350px;
+    height: 30%;
 }
